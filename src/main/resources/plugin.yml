@@ -1,0 +1,7 @@
+name: Countdown
+version: ${project.version}
+main: de.pentamuria.countdown.Countdown
+api-version: 1.13
+prefix: CD
+authors: [oconner13]
+description: The Start Countdown Plugin from Pentamuria.
