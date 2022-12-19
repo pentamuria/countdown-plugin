@@ -1,5 +1,6 @@
 package de.pentamuria.countdown;
 
+import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;
 
@@ -32,13 +33,13 @@ public class ConfigManager {
         startDate = (Date) config.get("startTime");
     }
 
-    public void setStartDate(Date startDate) {
-        config.addDefault("startTime", startDate);
-        config.options().copyDefaults(true);
+    public void setStartLocation(Location location) {
+        config.set("startLocation", location);
         plugin.saveConfig();
+    }
 
-        plugin.getServer().getConsoleSender().sendMessage(
-                "[CD] The StartTime has been updated now the Server must be restart!");
+    public Location getStartLocation() {
+        return (Location) config.get("startLocation");
     }
 
     public Date getStartDate() {
