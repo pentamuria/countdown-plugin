@@ -1,7 +1,13 @@
-# countdown-plugin
-Das countdown-plugin ist das Plugin, das für den Start von Pentamuria zuständig ist.
-Das Plugin blockiert alle Schläge, Mobs etc., damit sich die Spieler keinen Blödsinn vor Start des Projekts machen. Ebenfalls hält es die Spieler in einem begrenzten Gebiet gefangen.
+# Countdown Plugin
 
-Der Start des Projekts kann auf eine bestimmte Uhrzeit gesetzt, um genau diese Uhrzeit soll das Projekt starten. Alle Spieler bekommen kurze Zeit vorher eine Title Nachricht und auf Punkt der Sekunde werden alle Spieler zum Start teleportiert.
+Minecraft Plugin für Pentamuria für einen reibungslosen Start.
 
-Das Plugin entlädt sich automatisch, nach Ablauf des Countdowns, aus der Liste der geladenen Plugins.
+## Beschreibung
+
+Das Countdown-Plugin ist verantwortlich für den Start von Pentamuria. Es blockiert sämtliche Angriffe, Mobs usw., um sicherzustellen, dass die Spieler vor Beginn des Projekts keine unerwünschten Aktionen durchführen. Zusätzlich begrenzt es den Bewegungsbereich der Spieler auf ein festgelegtes Gebiet.<br><br>
+Der Startzeitpunkt des Projekts kann exakt festgelegt werden. Zu dieser Zeit startet das Projekt, und alle Spieler erhalten kurz zuvor eine Titel-Nachricht. Auf die Sekunde genau werden dann alle Spieler zum Startpunkt teleportiert.<br><br>
+Nach Ablauf des Countdowns entlädt sich das Plugin automatisch aus der Liste der aktiven Plugins. Anschließend kann es gelöscht werden, da seine Aufgabe erfüllt ist.
+
+## Wichtige Information
+
+Das Plugin befindet sich in einem unfertigen Zustand, und es kann nicht garantiert werden, dass alle Funktionen ordnungsgemäß funktionieren.
